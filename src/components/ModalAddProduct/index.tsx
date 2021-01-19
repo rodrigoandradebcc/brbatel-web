@@ -4,6 +4,7 @@ import { FiCheckSquare } from 'react-icons/fi';
 import Modal from '../Modal';
 import { Form, Label } from './styles';
 import Input from '../Input';
+import InputMask from '../InputMask';
 
 interface IProduct {
   name: string;
@@ -62,22 +63,36 @@ const ModalAddProduct: React.FC<IModalProps> = ({
         <div className="two-inputs">
           <div>
             <Label>QUANTIDADE ATUAL</Label>
-            <Input name="current_quantity" placeholder="Ex: 100" />
+            <Input
+              name="current_quantity"
+              type="number"
+              placeholder="Ex: 100"
+            />
           </div>
           <div>
             <Label>QUANTIDADE MÍNIMA</Label>
-            <Input name="minimum_quantity" placeholder="Ex: 10" />
+            <Input name="minimum_quantity" type="number" placeholder="Ex: 10" />
           </div>
         </div>
 
         <div className="two-inputs">
           <div>
             <Label>CUSTO</Label>
-            <Input name="cost" placeholder="Ex: 19.90" />
+            <Input
+              name="cost"
+              type="number"
+              step="0.01"
+              placeholder="Ex: 19.90"
+            />
           </div>
           <div>
             <Label>PREÇO DE REVENDA</Label>
-            <Input name="resale_price" placeholder="Ex: 25.90" />
+            <Input
+              name="resale_price"
+              step="0.01"
+              type="number"
+              placeholder="Ex: 25.90"
+            />
           </div>
         </div>
 

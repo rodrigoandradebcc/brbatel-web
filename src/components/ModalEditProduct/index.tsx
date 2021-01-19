@@ -85,11 +85,21 @@ const ModalEditProduct: React.FC<IModalProps> = ({
         <TwoInputs className="two-inputs">
           <div>
             <Label>CUSTO</Label>
-            <Input name="cost" placeholder="Ex: 19.90" />
+            <Input
+              name="cost"
+              type="number"
+              step="0.01"
+              placeholder="Ex: 19.90"
+            />
           </div>
           <div>
             <Label>PREÇO DE REVENDA</Label>
-            <Input name="resale_price" placeholder="Ex: 25.90" />
+            <Input
+              name="resale_price"
+              type="number"
+              step="0.01"
+              placeholder="Ex: 25.90"
+            />
           </div>
         </TwoInputs>
 

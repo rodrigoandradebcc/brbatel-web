@@ -1,12 +1,10 @@
 import { useField } from '@unform/core';
 import React, { InputHTMLAttributes, useEffect, useRef } from 'react';
-import ReactInputMask, { Props as InputProps } from 'react-input-mask';
+import ReactInputMask, { Props as InputPropsMask } from 'react-input-mask';
 
 import { Container } from './styles';
 
-interface IInputProps
-  extends InputHTMLAttributes<HTMLInputElement>,
-    InputProps {
+interface IInputProps extends InputPropsMask {
   name: string;
 }
 
