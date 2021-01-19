@@ -134,7 +134,7 @@ const Dashboard: React.FC = () => {
   }
 
   async function handleUpdateProduct(product: IProduct): Promise<void> {
-    api
+    await api
       .put<IProductResponse>(`products/${editingProduct.id}`, {
         ...product,
       })
@@ -308,7 +308,8 @@ const Dashboard: React.FC = () => {
                     <tr
                       key={product.id}
                       className={`${
-                        product.current_quantity <= product.minimum_quantity
+                        Number(product.current_quantity) <=
+                        Number(product.minimum_quantity)
                           ? 'animation'
                           : null
                       }`}
@@ -317,7 +318,8 @@ const Dashboard: React.FC = () => {
                       <td
                         data-label="Quantidade atual"
                         className={`${
-                          product.current_quantity <= product.minimum_quantity
+                          Number(product.current_quantity) <=
+                          Number(product.minimum_quantity)
                             ? 'alert'
                             : null
                         }`}
