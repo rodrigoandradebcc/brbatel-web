@@ -282,9 +282,10 @@ export const ContainerCard = styled.div`
     width: 95%;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 460px) {
     flex-direction: column;
 
+    margin-top: 0.2rem;
     ${Card} {
       margin-left: 0;
     }
