@@ -14,6 +14,10 @@ export const Label = styled.label`
 
 export const Form = styled(Unform)`
   padding: 48px 40px;
+
+  @media (max-width: 800px) {
+    padding: 6px;
+  }
   display: flex;
   flex-direction: column;
   h1 {
@@ -48,6 +52,15 @@ export const Form = styled(Unform)`
     > div + div {
       margin-left: 1.62rem;
     }
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+
+      > div + div {
+        margin-left: 0;
+        padding-top: 1.25rem;
+      }
+    }
   }
 
   button {
@@ -68,6 +81,10 @@ export const Form = styled(Unform)`
       background: #04d361;
       border-radius: 0 8px 8px 0;
       margin: 0 auto;
+    }
+
+    @media (max-width: 800px) {
+      margin: 1.25rem auto 0 auto;
     }
   }
 `;

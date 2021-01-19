@@ -36,7 +36,13 @@ const ModalAddProduct: React.FC<IModalProps> = ({
 
   const handleSubmit = useCallback(
     async (data: ICreateProductData) => {
-      handleAddProduct(data);
+      handleAddProduct({
+        cost: Number(data.cost),
+        current_quantity: Number(data.current_quantity),
+        minimum_quantity: Number(data.minimum_quantity),
+        name: data.name,
+        resale_price: Number(data.resale_price),
+      });
 
       setIsOpen();
     },
@@ -76,7 +82,7 @@ const ModalAddProduct: React.FC<IModalProps> = ({
         </div>
 
         <button type="submit" data-testid="add-food-button">
-          <p className="text">Adicionar Prato</p>
+          <p className="text">Adicionar Produto</p>
           <div className="icon">
             <FiCheckSquare size={24} />
           </div>

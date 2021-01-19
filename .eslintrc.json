@@ -33,6 +33,7 @@
     "react/require-default-props": "off",
     "@typescript-eslint/no-empty-function": "off",
     "react-hooks/rules-of-hooks": "off",
+    "react/jsx-curly-newline": "off",
     // "@typescript-eslint/explicit-function-return-type": [
     //   "error",{
     //     "allowExpressions": true
