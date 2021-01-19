@@ -168,7 +168,7 @@ const Dashboard: React.FC = () => {
       const { data: responseData } = await api.patch<IProductResponse>(
         `products/${product.id}`,
         {
-          new_quantity: product.current_quantity + 1,
+          new_quantity: Number(product.current_quantity) + 1,
         },
       );
 
@@ -194,7 +194,7 @@ const Dashboard: React.FC = () => {
       const { data: responseData } = await api.patch<IProductResponse>(
         `products/${product.id}`,
         {
-          new_quantity: product.current_quantity - 1,
+          new_quantity: Number(product.current_quantity) - 1,
         },
       );
 
