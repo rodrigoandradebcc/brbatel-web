@@ -42,7 +42,12 @@ yarn
 #### Passo 5 - Para executar a aplicação utilize o comando:
 
 yarn start
- 
+
+
+<h1 align="center">
+  <img alt="Ambiente" title="BrBatel" src="https://user-images.githubusercontent.com/3511851/114932493-f2c9b180-9e0d-11eb-811b-c7d2fd4c7884.png" width="800px" />
+</h1>
+
 
 
 ## 🔖 Layout
