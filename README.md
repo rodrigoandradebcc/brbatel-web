@@ -31,7 +31,7 @@ cd web-app
 
 #### Passo 3 - Para instalar todas as depêndencias utilizaremos o [Yarn](https://yarnpkg.com/) para acessá-lo. diretório da aplicação com o comando:
 
-cd web-app
+yarn
 
 ## 🔖 Layout
 
