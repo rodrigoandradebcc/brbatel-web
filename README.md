@@ -52,7 +52,7 @@ yarn start
 </h1>
 
 <h1 align="center">
-  <img alt="Ambiente" title="BrBatel" src="https://user-images.githubusercontent.com/3511851/114932976-88654100-9e0e-11eb-90dc-f580f6ffa2ba.png" width="800px" />
+  <img alt="Ambiente" title="BrBatel" src="https://user-images.githubusercontent.com/3511851/114933212-cfebcd00-9e0e-11eb-9fe3-6c6e864b481a.png" width="800px" />
 </h1>
 
 
