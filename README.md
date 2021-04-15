@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Express
 
-## 💻 Como executar o Projeto
+## 💻 Executando o Projeto
 
 #### Passo 1 - Primeiramente você deve fazer o clone para sua máquina com o comando no prompt:
 
