@@ -18,3 +18,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Styled Components
 - JavaScript
 - Express
+
+## 💻 Projeto
+
+A Plataforma BR Batel é uma aplicação 
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/PnRO6jB41rcWZtvBm4cibz/Br-Batel). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
