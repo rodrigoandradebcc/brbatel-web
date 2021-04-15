@@ -19,9 +19,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Express
 
-## 💻 Projeto
+## 💻 Como executar o Projeto
 
-A Plataforma BR Batel é uma aplicação 
+Primeiramente você deve fazer o clone para sua máquina com o comando:
+
+git clone https://gitlab.com/brbatel/web-app.git
 
 ## 🔖 Layout
 
