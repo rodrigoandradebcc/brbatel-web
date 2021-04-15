@@ -29,9 +29,13 @@ git clone https://gitlab.com/brbatel/web-app.git
 
 cd web-app
 
-#### Passo 3 - Para instalar todas as depêndencias utilizaremos o [Yarn](https://yarnpkg.com/) para acessá-lo. diretório da aplicação com o comando:
+#### Passo 3 - Para instalar todas as dependência utilizaremos o [Yarn](https://yarnpkg.com/). Utilize o comando:
 
 yarn
+
+#### Passo 4 - Criar o arquivo .env que contém as variaveis de ambiente necessárias para levantar a aplicação
+
+![image](https://user-images.githubusercontent.com/3511851/114931294-6ff42700-9e0c-11eb-8e81-13cec7a36c9f.png)
 
 ## 🔖 Layout
 
