@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Como executar o Projeto
 
-Primeiramente você deve fazer o clone para sua máquina com o comando:
+# Primeiramente você deve fazer o clone para sua máquina com o comando:
 
 git clone https://gitlab.com/brbatel/web-app.git
 
