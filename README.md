@@ -29,6 +29,10 @@ git clone https://gitlab.com/brbatel/web-app.git
 
 cd web-app
 
+#### Passo 3 - Para instalar todas as depêndencias utilizaremos o [Yarn](https://yarnpkg.com/) para acessá-lo. diretório da aplicação com o comando:
+
+cd web-app
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/PnRO6jB41rcWZtvBm4cibz/Br-Batel). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
