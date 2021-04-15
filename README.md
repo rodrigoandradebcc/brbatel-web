@@ -51,6 +51,12 @@ yarn start
   <img alt="Ambiente" title="BrBatel" src="https://user-images.githubusercontent.com/3511851/114932493-f2c9b180-9e0d-11eb-811b-c7d2fd4c7884.png" width="800px" />
 </h1>
 
+<h1 align="center">
+  <img alt="Ambiente" title="BrBatel" src="https://user-images.githubusercontent.com/3511851/114932976-88654100-9e0e-11eb-90dc-f580f6ffa2ba.png" width="800px" />
+</h1>
+
+
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/PnRO6jB41rcWZtvBm4cibz/Br-Batel). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
